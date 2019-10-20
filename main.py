@@ -75,7 +75,7 @@ def main():
                 path = path.replace('//', '/')
 
             if os.path.isfile(path):
-                upload(dbx, path, '/Personal Documents', 'test', filename, False)
+                upload(dbx, path, '/', 'VIRB takeouts', filename, False)
                 uploadedpath = '%s/uploaded/%s' % (directory.replace(os.path.sep, '/'), filename)
                 while '//' in path:
                     uploadedpath = uploadedpath.replace('//', '/')
