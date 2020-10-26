@@ -2,5 +2,5 @@
 token = YOUR_DROPBOX_ACCESS_TOKEN
 
 
-[backup]
+[local]
 localdirectory = /tmp
