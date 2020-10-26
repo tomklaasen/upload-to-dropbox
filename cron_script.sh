@@ -29,6 +29,7 @@ else
   fi
 fi
 
+cd /home/pi/upload-to-dropbox/
 python /home/pi/upload-to-dropbox/main.py
 
 rm $PIDFILE
